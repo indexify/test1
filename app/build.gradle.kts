@@ -4,6 +4,11 @@ android {
     namespace = "ca.lavagemobile.ops"
     compileSdk = 35
 
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
     defaultConfig {
         applicationId = "ca.lavagemobile.ops"
         minSdk = 26
